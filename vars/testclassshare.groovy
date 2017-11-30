@@ -1,4 +1,4 @@
-import static utilities.Sobaka.*
+import static utilities.Utilities.*
 
 call (var) {
   classshare '${var}'
