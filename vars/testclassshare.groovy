@@ -1,5 +1,5 @@
 import static utilities.Utilities.*
 
-call (var) {
+call(var) {
   classshare '${var}'
 }
