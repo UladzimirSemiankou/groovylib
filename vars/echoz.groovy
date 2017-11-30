@@ -1,3 +1,5 @@
+import base
 def call() {
-  println("helloepta2")
+  z = new test()
+  z.sayhi('shite')
 }
