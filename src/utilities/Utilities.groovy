@@ -1,4 +1,4 @@
-package utilities
+package utilities.Utilities
 
 class Utilities {
   static def classshare(script, var) {
