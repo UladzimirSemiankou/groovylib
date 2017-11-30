@@ -1,3 +1,3 @@
 def call() {
-  echo "i am shared var code"
+  println "i am shared var code"
 }
