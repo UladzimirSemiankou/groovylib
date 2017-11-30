@@ -1,5 +1,5 @@
 import static utilities.Utilities.*
 
-def call(script var) {
+def call(script, var) {
   classshare script, '${var}'
 }
