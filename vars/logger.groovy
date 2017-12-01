@@ -1,13 +1,13 @@
 enum Level {DEBUG, INFO}
-
+def levels = env.LogLevel as Level
 def debug(message) {
-  if ((env.LogLevel as Level) <= Level.DEBUG) {
+  if (levels <= Level.DEBUG) {
     println "[DEBUG]: ${message}"
   }
 }
 
 def info(message) {
-  if ((env.LogLevel as Level) <= Level.INFO) {
+  if (levels <= Level.INFO) {
     println "[INFO]: ${message}"
   }
 }
