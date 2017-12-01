@@ -1,5 +1,9 @@
 enum Level {DEBUG, INFO}
 
+def call() {
+  println env.LogLevel
+}
+
 def debug(message) {
   if (env.LogLevel <= Level.DEBUG) {
     println env.LogLevel
