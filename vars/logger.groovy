@@ -1,7 +1,7 @@
 enum Level {DEBUG, INFO}
 
 def call() {
-  println env.HOME
+  println env.LogLevel
 }
 
 def debug(message) {
